@@ -1,0 +1,16 @@
+name: ebay-config
+
+# Trading API OAuth - https://developer.ebay.com/api-docs/static/oauth-tokens.html
+
+# UPDATE the values in this file, before running the tests
+api.sandbox.ebay.com:
+    appid: Mitchell-Frugal-SBX-d40728b69-7310e1f9
+    certid: SBX-40728b6910c0-4841-4044-b74a-134e
+    devid: acb5abb8-4264-4ae4-81a9-f7c1adaddeb9
+    redirecturi: http://localhost:8100/
+
+api.ebay.com:
+    appid: Mitchell-Frugal-PRD-b4195c7c8-244f47ca
+    certid: PRD-4195c7c889d9-f23e-4e9e-93c0-00cf
+    devid: acb5abb8-4264-4ae4-81a9-f7c1adaddeb9
+    redirecturi: http://localhost:8100/

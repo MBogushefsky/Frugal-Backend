@@ -4,9 +4,11 @@
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/controllers/SecurityController.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/models/UserPreferenceType.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/services/ProductCompareService.java
+/Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/services/GoogleShoppingService.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/controllers/UserPreferenceController.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/services/UserPreferenceService.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/dto/ChangePasswordDTO.java
+/Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/services/EbayAPIService.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/controllers/ProductCompareController.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/dto/SearchProductDTO.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/models/User.java
@@ -16,10 +18,12 @@
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/configurations/ProductCompareConfiguration.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/configurations/AmazonConfiguration.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/controllers/LoginController.java
+/Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/configurations/SerpApiConfiguration.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/dto/ProfileDTO.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/configurations/WalmartConfiguration.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/controllers/EbayController.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/dto/UserDTO.java
+/Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/configurations/CountdownConfiguration.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/dto/AuthorizationDTO.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/repositories/UserPreferenceRepository.java
 /Users/mitchell/Documents/GitHub/Frugal-Backend/src/main/java/com/bogaware/frugal/configurations/WebScrapingConfiguration.java

@@ -61,7 +61,7 @@ public class GoogleShoppingService {
                 searchProductDTO.setBrand(node.get("source").asText());
                 searchProductDTO.setPrice(node.get("extracted_price").asDouble());
                 searchProductDTO.setLink(node.get("link").asText());
-                searchProductDTO.setImageUrl(node.get("thumbnail").asText());
+                searchProductDTO.setImageUrl(node.has("thumbnail") ? node.get("thumbnail").asText() : null);
                 searchProductDTO.setRating(node.has("rating") ? node.get("rating").asDouble() : null);
                 searchProductDTO.setRatingCount(node.has("reviews") ? node.get("reviews").asInt() : null);
                 resultProducts.add(searchProductDTO);

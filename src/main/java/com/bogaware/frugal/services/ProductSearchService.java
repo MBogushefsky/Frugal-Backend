@@ -46,12 +46,14 @@ public class ProductSearchService {
                 resultProducts.addAll(googleShoppingService.getProductsByKeyword(filter));
             }
         }
-        resultProducts = postProductsRetrieveCalculations(filter, resultProducts);
+        resultProducts = postProductsRetrieveRemoveDuplicates(filter, resultProducts);
         resultProducts = postProductsRetrieveSort(filter, resultProducts);
         return resultProducts;
     }
 
-    private List<SearchProductDTO> postProductsRetrieveCalculations(SearchProductFilterDTO filter, List<SearchProductDTO> products) {
+    private List<SearchProductDTO> postProductsRetrieveRemoveDuplicates(SearchProductFilterDTO filter, List<SearchProductDTO> products) {
+        Set<String> distinctSet = new HashSet<>();
+        products = products.stream().filter(product -> distinctSet.add(product.getId())).collect(Collectors.toList());
         return products;
     }
 

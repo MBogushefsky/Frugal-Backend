@@ -27,6 +27,7 @@ public class ProductSearchController {
     @PutMapping("search")
     @ResponseBody
     public List<SearchProductDTO> searchProducts(@RequestBody SearchProductFilterDTO filter) throws UnsupportedEncodingException {
+        if (filter.getKeyword().trim().isEmpty()) { return null; }
         return productSearchService.searchProducts(filter);
     }
 
